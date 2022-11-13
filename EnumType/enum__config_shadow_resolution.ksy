@@ -1,0 +1,21 @@
+meta:
+  id: enum__config_shadow_resolution
+  endian: le
+  license: MIT
+  imports:
+    - ../aux_types
+types:
+  enum__config_shadow_resolution:
+    seq:
+      - id: data
+        type: aux_types::vlq_base128_le_s
+    instances:
+      value:
+        value: data.value
+        enum: config_shadow_resolution
+enums:
+  config_shadow_resolution:
+    0: low
+    1: medium
+    2: high
+    3: very_high

@@ -1,0 +1,113 @@
+meta:
+  id: enum__guide_open_state_type
+  endian: le
+  license: MIT
+  imports:
+    - ../aux_types
+types:
+  enum__guide_open_state_type:
+    seq:
+      - id: data
+        type: aux_types::vlq_base128_le_s
+    instances:
+      value:
+        value: data.value
+        enum: guide_open_state_type
+enums:
+  guide_open_state_type:
+    0: open_state_none
+    1: open_state_paimon
+    2: open_state_paimon_navigation
+    3: open_state_avatar_promote
+    4: open_state_avatar_talent
+    5: open_state_weapon_promote
+    6: open_state_weapon_awaken
+    7: open_state_quest_remind
+    8: open_state_game_guide
+    9: open_state_cook
+    10: open_state_weapon_upgrade
+    11: open_state_reliquary_upgrade
+    12: open_state_reliquary_promote
+    13: open_state_weapon_promote_guide
+    14: open_state_weapon_change_guide
+    15: open_state_player_lvup_guide
+    16: open_state_freshman_guide
+    17: open_state_skip_freshman_guide
+    18: open_state_guide_move_camera
+    19: open_state_guide_scale_camera
+    20: open_state_guide_keyboard
+    21: open_state_guide_move
+    22: open_state_guide_jump
+    23: open_state_guide_sprint
+    24: open_state_guide_map
+    25: open_state_guide_attack
+    26: open_state_guide_fly
+    27: open_state_guide_talent
+    28: open_state_guide_relic
+    29: open_state_guide_relic_prom
+    30: open_state_combine
+    31: open_state_gacha
+    32: open_state_guide_gacha
+    33: open_state_guide_team
+    34: open_state_guide_proud
+    35: open_state_guide_avatar_promote
+    36: open_state_guide_adventure_card
+    37: open_state_forge
+    38: open_state_guide_bag
+    40: open_state_guide_adventure_dailytask
+    41: open_state_guide_adventure_dungeon
+    49: open_state_multiplayer
+    50: open_state_guide_mousepc
+    51: open_state_guide_multiplayer
+    52: open_state_guide_dungeonreward
+    54: open_state_avatar_fashion
+    56: open_state_guide_kslquest
+    57: open_state_personal_line
+    58: open_state_guide_personal_line
+    59: open_state_guide_appearance
+    60: open_state_guide_process
+    61: open_state_guide_personal_line_key
+    62: open_state_guide_widget
+    63: open_state_guide_activity_skill_aster
+    64: open_state_guide_coldclimate
+    66: open_state_guide_exitmultiplayer
+    67: open_state_guide_theatremachanicus_build
+    68: open_state_guide_theatremachanicus_rebuild
+    69: open_state_guide_theatremachanicus_card
+    70: open_state_guide_theatremachanicus_monster
+    71: open_state_guide_theatremachanicus_mission_check
+    72: open_state_guide_theatremachanicus_build_select
+    73: open_state_guide_theatremachanicus_challenge_start
+    74: open_state_guide_convert
+    75: open_state_guide_theatremachanicus_multiplayer
+    76: open_state_guide_coop_task
+    77: open_state_guide_homeworld_adeptiabode
+    78: open_state_guide_homeworld_deploy
+    79: open_state_guide_channellerslab_equip
+    80: open_state_guide_channellerslab_mp_solution
+    81: open_state_guide_channellerslab_power
+    82: open_state_guide_hideandseek_skill
+    83: open_state_guide_homeworld_maplist
+    84: open_state_guide_relicresolve
+    85: open_state_guide_gguide
+    86: open_state_guide_gguide_hint
+    1001: open_state_shop_type_paimon
+    1002: open_state_shop_type_city
+    1003: open_state_shop_type_blacksmith
+    1004: open_state_shop_type_grocery
+    1005: open_state_shop_type_food
+    1411: open_state_guide_sumo_team_skill
+    1412: open_state_guide_fish_recipe
+    2001: open_state_guide_chess_mission_check
+    2002: open_state_guide_chess_build
+    2003: open_state_guide_chess_wind_tower_circle
+    2004: open_state_guide_chess_card_select
+    2100: open_state_paimon_lvinfo
+    2101: open_state_teleport_hud
+    2102: open_state_guide_map_unlock
+    2103: open_state_guide_paimon_lvinfo
+    2104: open_state_guide_ambortransport
+    2105: open_state_guide_fly_second
+    2106: open_state_guide_kaeya_clue
+    2205: open_state_guide_rogue_map
+    2206: open_state_guide_rogue_rune

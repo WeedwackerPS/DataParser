@@ -1,0 +1,96 @@
+meta:
+  id: enum__shop_type
+  endian: le
+  license: MIT
+  imports:
+    - ../aux_types
+types:
+  enum__shop_type:
+    seq:
+      - id: data
+        type: aux_types::vlq_base128_le_s
+    instances:
+      value:
+        value: data.value
+        enum: shop_type
+enums:
+  shop_type:
+    0: shop_type_none
+    900: shop_type_recommend
+    901: shop_type_hcoin
+    902: shop_type_package
+    903: shop_type_mcoin
+    1001: shop_type_paimon
+    1002: shop_type_city
+    1003: shop_type_blacksmith
+    1004: shop_type_grocery
+    1005: shop_type_food
+    1006: shop_type_sea_lamp
+    1007: shop_type_virtual_shop
+    1008: shop_type_liyue_grocery
+    1009: shop_type_liyue_souvenir
+    1010: shop_type_liyue_restaurant
+    1011: shop_type_npc_flora
+    1012: shop_type_npc_charles
+    1013: shop_type_npc_shiliu
+    1014: shop_type_npc_schulz
+    1015: shop_type_npc_brook
+    1016: shop_type_npc_hopkins
+    1017: shop_type_npc_draff
+    1018: shop_type_npc_chloris
+    1019: shop_type_npc_licai
+    1020: shop_type_npc_yueshu
+    1021: shop_type_npc_gui
+    1022: shop_type_npc_gao
+    1023: shop_type_npc_sun
+    1024: shop_type_npc_qiming
+    1025: shop_type_npc_zhangshun
+    1026: shop_type_npc_chen
+    1027: shop_type_npc_er_niang
+    1028: shop_type_npc_shitou
+    1029: shop_type_npc_jifang
+    1030: shop_type_npc_zhu
+    1031: shop_type_npc_bai
+    1032: shop_type_npc_kai
+    1033: shop_type_npc_linglang
+    1034: shop_type_npc_verr_goldet
+    1035: shop_type_npc_zhou
+    1036: shop_type_task_ekaterina
+    1037: shop_type_activity_aster
+    1038: shop_type_task_tartaglia
+    1039: shop_type_npc_harris
+    1040: shop_type_activity_dragon_spine
+    1041: shop_type_activity_treasure_map
+    1042: shop_type_npc_yinian
+    1043: shop_type_activity_sea_lamp
+    1044: shop_type_activity_fleur_fair
+    1045: shop_type_npc_changshun
+    1046: shop_type_npc_bolai
+    1047: shop_type_npc_ashanpo
+    1048: shop_type_home
+    1049: shop_type_home_limit
+    1050: shop_type_npc_master_lu
+    1051: shop_type_npc_goth
+    1052: shop_type_costume
+    1053: shop_type_npc_obata
+    1054: shop_type_npc_qiuyue
+    1055: shop_type_npc_ryouko
+    1056: shop_type_inazuma_grocery
+    1057: shop_type_inazuma_souvenir
+    1058: shop_type_inazuma_restaurant
+    1059: shop_type_npc_kuroda
+    1060: shop_type_npc_kiminami_anna
+    1061: shop_type_npc_tomoki
+    1062: shop_type_npc_karpillia
+    1063: shop_type_blacksmith_inazuma
+    1064: shop_type_fish
+    1065: shop_type_fish_liyue
+    1066: shop_type_fish_inazuma
+    1067: shop_type_npc_kiyoko
+    1068: shop_type_expired_widget_mengde
+    15001: shop_type_activity_channeller_slab
+    16001: shop_type_activity_summer_time
+    16002: shop_type_activity_bounce_conjuring
+    20001: shop_type_activity_blitz_rush
+    20002: shop_type_activity_chess
+    20003: shop_type_activity_roguelike_dungeon

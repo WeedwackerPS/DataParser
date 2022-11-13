@@ -1,0 +1,18 @@
+meta:
+  id: enum__type_count
+  endian: le
+  license: MIT
+  imports:
+    - ../aux_types
+types:
+  enum__type_count:
+    seq:
+      - id: data
+        type: aux_types::vlq_base128_le_s
+    instances:
+      value:
+        value: data.value
+        enum: type_count
+enums:
+  type_count:
+    5: reliquary_type_count
