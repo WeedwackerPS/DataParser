@@ -1,7 +1,7 @@
 meta:
   id: enum__equip_entity_type
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

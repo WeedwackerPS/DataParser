@@ -1,7 +1,7 @@
 meta:
   id: enum__custom_gadget_node_slot_type
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

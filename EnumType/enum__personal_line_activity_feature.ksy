@@ -1,7 +1,7 @@
 meta:
   id: enum__personal_line_activity_feature
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

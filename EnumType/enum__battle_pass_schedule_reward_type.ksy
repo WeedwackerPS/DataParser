@@ -1,7 +1,7 @@
 meta:
   id: enum__battle_pass_schedule_reward_type
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

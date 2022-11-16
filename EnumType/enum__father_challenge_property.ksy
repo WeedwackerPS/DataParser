@@ -1,7 +1,7 @@
 meta:
   id: enum__father_challenge_property
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

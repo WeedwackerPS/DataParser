@@ -1,7 +1,7 @@
 meta:
   id: enum__indicator_distance_info_type
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

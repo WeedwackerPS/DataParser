@@ -1,7 +1,7 @@
 meta:
   id: enum__state_audio_event_usage
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

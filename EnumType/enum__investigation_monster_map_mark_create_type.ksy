@@ -1,7 +1,7 @@
 meta:
   id: enum__investigation_monster_map_mark_create_type
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

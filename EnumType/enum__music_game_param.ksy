@@ -1,7 +1,7 @@
 meta:
   id: enum__music_game_param
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

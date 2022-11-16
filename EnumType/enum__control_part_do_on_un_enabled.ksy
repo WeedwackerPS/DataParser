@@ -1,7 +1,7 @@
 meta:
   id: enum__control_part_do_on_un_enabled
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

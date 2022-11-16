@@ -1,7 +1,7 @@
 meta:
   id: enum__common_player_tips_type
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

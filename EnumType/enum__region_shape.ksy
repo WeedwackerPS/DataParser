@@ -1,7 +1,7 @@
 meta:
   id: enum__region_shape
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

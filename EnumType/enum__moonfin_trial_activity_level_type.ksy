@@ -1,7 +1,7 @@
 meta:
   id: enum__moonfin_trial_activity_level_type
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

@@ -1,7 +1,7 @@
 meta:
   id: enum__main_page_ui_disable_type
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

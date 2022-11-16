@@ -1,7 +1,7 @@
 meta:
   id: enum__interact_action_type
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

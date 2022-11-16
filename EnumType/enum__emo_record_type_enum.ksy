@@ -1,7 +1,7 @@
 meta:
   id: enum__emo_record_type_enum
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

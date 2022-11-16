@@ -1,7 +1,7 @@
 meta:
   id: enum__lua_task_type
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:

@@ -1,7 +1,7 @@
 meta:
   id: enum__token_force_enqueue_reason
   endian: le
-  license: MIT
+  license: AGPL-3.0-or-later
   imports:
     - ../aux_types
 seq:
