@@ -4,15 +4,13 @@ meta:
   license: MIT
   imports:
     - ../aux_types
-types:
-  enum__qte_type:
-    seq:
-      - id: data
-        type: aux_types::vlq_base128_le_s
-    instances:
-      value:
-        value: data.value
-        enum: qte_type
+seq:
+  - id: data
+    type: aux_types::vlq_base128_le_s
+instances:
+  value:
+    value: data.value
+    enum: qte_type
 enums:
   qte_type:
     0: qte_type_none

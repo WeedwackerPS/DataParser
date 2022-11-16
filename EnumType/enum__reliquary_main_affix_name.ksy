@@ -4,15 +4,13 @@ meta:
   license: MIT
   imports:
     - ../aux_types
-types:
-  enum__reliquary_main_affix_name:
-    seq:
-      - id: data
-        type: aux_types::vlq_base128_le_s
-    instances:
-      value:
-        value: data.value
-        enum: reliquary_main_affix_name
+seq:
+  - id: data
+    type: aux_types::vlq_base128_le_s
+instances:
+  value:
+    value: data.value
+    enum: reliquary_main_affix_name
 enums:
   reliquary_main_affix_name:
     0: reliquary_main_affix_none

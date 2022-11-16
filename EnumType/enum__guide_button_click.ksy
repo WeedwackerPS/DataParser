@@ -4,15 +4,13 @@ meta:
   license: MIT
   imports:
     - ../aux_types
-types:
-  enum__guide_button_click:
-    seq:
-      - id: data
-        type: aux_types::vlq_base128_le_s
-    instances:
-      value:
-        value: data.value
-        enum: guide_button_click
+seq:
+  - id: data
+    type: aux_types::vlq_base128_le_s
+instances:
+  value:
+    value: data.value
+    enum: guide_button_click
 enums:
   guide_button_click:
     0: click

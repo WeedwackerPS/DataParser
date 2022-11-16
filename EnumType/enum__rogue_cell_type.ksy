@@ -4,15 +4,13 @@ meta:
   license: MIT
   imports:
     - ../aux_types
-types:
-  enum__rogue_cell_type:
-    seq:
-      - id: data
-        type: aux_types::vlq_base128_le_s
-    instances:
-      value:
-        value: data.value
-        enum: rogue_cell_type
+seq:
+  - id: data
+    type: aux_types::vlq_base128_le_s
+instances:
+  value:
+    value: data.value
+    enum: rogue_cell_type
 enums:
   rogue_cell_type:
     0: rogue_cell_type_none

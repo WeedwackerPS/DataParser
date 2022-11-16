@@ -4,15 +4,13 @@ meta:
   license: MIT
   imports:
     - ../aux_types
-types:
-  enum__die_flag:
-    seq:
-      - id: data
-        type: aux_types::vlq_base128_le_s
-    instances:
-      value:
-        value: data.value
-        enum: die_flag
+seq:
+  - id: data
+    type: aux_types::vlq_base128_le_s
+instances:
+  value:
+    value: data.value
+    enum: die_flag
 enums:
   die_flag:
     0: alive

@@ -4,15 +4,13 @@ meta:
   license: MIT
   imports:
     - ../aux_types
-types:
-  enum__ability_state:
-    seq:
-      - id: data
-        type: aux_types::vlq_base128_le_u
-    instances:
-      value:
-        value: data.value
-        enum: ability_state
+seq:
+  - id: data
+    type: aux_types::vlq_base128_le_u
+instances:
+  value:
+    value: data.value
+    enum: ability_state
 enums:
   ability_state:
     0: none

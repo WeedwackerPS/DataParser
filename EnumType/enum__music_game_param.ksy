@@ -4,15 +4,13 @@ meta:
   license: MIT
   imports:
     - ../aux_types
-types:
-  enum__music_game_param:
-    seq:
-      - id: data
-        type: aux_types::vlq_base128_le_u
-    instances:
-      value:
-        value: data.value
-        enum: music_game_param
+seq:
+  - id: data
+    type: aux_types::vlq_base128_le_u
+instances:
+  value:
+    value: data.value
+    enum: music_game_param
 enums:
   music_game_param:
     0: none

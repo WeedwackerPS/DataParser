@@ -4,15 +4,13 @@ meta:
   license: MIT
   imports:
     - ../aux_types
-types:
-  enum__music_behaviour_ignorance:
-    seq:
-      - id: data
-        type: aux_types::vlq_base128_le_u
-    instances:
-      value:
-        value: data.value
-        enum: music_behaviour_ignorance
+seq:
+  - id: data
+    type: aux_types::vlq_base128_le_u
+instances:
+  value:
+    value: data.value
+    enum: music_behaviour_ignorance
 enums:
   music_behaviour_ignorance:
     1: beat

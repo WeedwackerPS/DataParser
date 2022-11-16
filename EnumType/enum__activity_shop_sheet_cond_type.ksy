@@ -4,15 +4,13 @@ meta:
   license: MIT
   imports:
     - ../aux_types
-types:
-  enum__activity_shop_sheet_cond_type:
-    seq:
-      - id: data
-        type: aux_types::vlq_base128_le_s
-    instances:
-      value:
-        value: data.value
-        enum: activity_shop_sheet_cond_type
+seq:
+  - id: data
+    type: aux_types::vlq_base128_le_s
+instances:
+  value:
+    value: data.value
+    enum: activity_shop_sheet_cond_type
 enums:
   activity_shop_sheet_cond_type:
     0: activity_shop_sheet_cond_none

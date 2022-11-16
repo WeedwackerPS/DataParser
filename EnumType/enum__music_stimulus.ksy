@@ -4,15 +4,13 @@ meta:
   license: MIT
   imports:
     - ../aux_types
-types:
-  enum__music_stimulus:
-    seq:
-      - id: data
-        type: aux_types::vlq_base128_le_u
-    instances:
-      value:
-        value: data.value
-        enum: music_stimulus
+seq:
+  - id: data
+    type: aux_types::vlq_base128_le_u
+instances:
+  value:
+    value: data.value
+    enum: music_stimulus
 enums:
   music_stimulus:
     0: none
