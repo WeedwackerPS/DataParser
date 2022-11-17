@@ -1,0 +1,47 @@
+meta:
+  id: weapon_promote_excel_config
+  endian: le
+  license: AGPL-3.0-or-later
+  imports:
+    - ../aux_types
+    - Common/array_of__id_count_config__length_s
+    - Common/array_of__prop_val_config__length_s
+seq:
+  - id: bit_field
+    type: aux_types::length_prefixed_bitfield
+  - id: weapon_promote_id
+    type: aux_types::vlq_base128_le_u
+    if: has_field_weapon_promote_id
+  - id: promote_level
+    type: aux_types::vlq_base128_le_u
+    if: has_field_promote_level
+  - id: cost_items
+    type: array_of__id_count_config__length_s
+    if: has_field_cost_items
+  - id: coin_cost
+    type: aux_types::vlq_base128_le_u
+    if: has_field_coin_cost
+  - id: add_props
+    type: array_of__prop_val_config__length_s
+    if: has_field_add_props
+  - id: unlock_max_level
+    type: aux_types::vlq_base128_le_u
+    if: has_field_unlock_max_level
+  - id: required_player_level
+    type: aux_types::vlq_base128_le_u
+    if: has_field_required_player_level
+instances:
+  has_field_weapon_promote_id: # Field №0
+    value: (bit_field.length.value >= 1) and ((bit_field.bitfield[0] & 0b00000001) != 0)
+  has_field_promote_level: # Field №1
+    value: (bit_field.length.value >= 1) and ((bit_field.bitfield[0] & 0b00000010) != 0)
+  has_field_cost_items: # Field №2
+    value: (bit_field.length.value >= 1) and ((bit_field.bitfield[0] & 0b00000100) != 0)
+  has_field_coin_cost: # Field №3
+    value: (bit_field.length.value >= 1) and ((bit_field.bitfield[0] & 0b00001000) != 0)
+  has_field_add_props: # Field №4
+    value: (bit_field.length.value >= 1) and ((bit_field.bitfield[0] & 0b00010000) != 0)
+  has_field_unlock_max_level: # Field №5
+    value: (bit_field.length.value >= 1) and ((bit_field.bitfield[0] & 0b00100000) != 0)
+  has_field_required_player_level: # Field №6
+    value: (bit_field.length.value >= 1) and ((bit_field.bitfield[0] & 0b01000000) != 0)
