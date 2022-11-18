@@ -3,8 +3,8 @@ meta:
   endian: le
   license: AGPL-3.0-or-later
   imports:
-    - ../aux_types
-    - ../EnumType/enum__roguelike_effect_type
+    - ../../aux_types
+    - ../../EnumType/enum__roguelike_effect_type
 seq:
   - id: bit_field
     type: aux_types::length_prefixed_bitfield

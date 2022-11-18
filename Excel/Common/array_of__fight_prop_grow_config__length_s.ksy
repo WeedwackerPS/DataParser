@@ -1,14 +1,14 @@
 meta:
-  id: array_of__id_count_config__length_s
+  id: array_of__fight_prop_grow_config__length_s
   endian: le
   license: AGPL-3.0-or-later
   imports:
     - ../../aux_types
-    - id_count_config
+    - fight_prop_grow_config
 seq:
   - id: length
     type: aux_types::vlq_base128_le_s
   - id: data
-    type: id_count_config
+    type: fight_prop_grow_config
     repeat: expr
     repeat-expr: length.value
