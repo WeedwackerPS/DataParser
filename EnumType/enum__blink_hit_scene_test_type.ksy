@@ -1,7 +1,7 @@
 meta:
   id: enum__blink_hit_scene_test_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

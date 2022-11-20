@@ -1,7 +1,7 @@
 meta:
   id: set_part_control_target
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../config_ability_action
     - ../../../../ArrayType/array_of__aux_types__string__length_u

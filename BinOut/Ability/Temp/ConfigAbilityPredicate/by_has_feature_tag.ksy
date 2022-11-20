@@ -1,7 +1,7 @@
 meta:
   id: by_has_feature_tag
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../ArrayType/array_of__aux_types__vlq_base128_le_u__length_u

@@ -1,7 +1,7 @@
 meta:
   id: array_of__disp__config_ability_action__length_u
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - disp__config_ability_action
     - ../../../../aux_types

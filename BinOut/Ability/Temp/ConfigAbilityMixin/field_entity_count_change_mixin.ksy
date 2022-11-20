@@ -1,7 +1,7 @@
 meta:
   id: field_entity_count_change_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../EnumType/enum__target_type

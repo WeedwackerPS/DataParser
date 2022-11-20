@@ -1,7 +1,7 @@
 meta:
   id: enum__hide_and_seek_skill_category
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

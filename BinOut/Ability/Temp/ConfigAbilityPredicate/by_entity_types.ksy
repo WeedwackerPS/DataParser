@@ -1,7 +1,7 @@
 meta:
   id: by_entity_types
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../ArrayType/array_of__enum__entity_type__length_u

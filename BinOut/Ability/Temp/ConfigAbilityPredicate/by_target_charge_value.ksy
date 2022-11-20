@@ -1,7 +1,7 @@
 meta:
   id: by_target_charge_value
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../EnumType/enum__element_type

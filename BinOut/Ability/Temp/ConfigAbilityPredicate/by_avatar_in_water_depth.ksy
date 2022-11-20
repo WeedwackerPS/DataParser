@@ -1,7 +1,7 @@
 meta:
   id: by_avatar_in_water_depth
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../EnumType/enum__relation_type

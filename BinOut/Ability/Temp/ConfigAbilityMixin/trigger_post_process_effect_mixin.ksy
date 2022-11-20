@@ -1,7 +1,7 @@
 meta:
   id: trigger_post_process_effect_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../aux_types

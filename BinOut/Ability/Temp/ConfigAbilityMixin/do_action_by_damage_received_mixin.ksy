@@ -1,7 +1,7 @@
 meta:
   id: do_action_by_damage_received_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../EnumType/enum__do_action_by_damage_received_param_type

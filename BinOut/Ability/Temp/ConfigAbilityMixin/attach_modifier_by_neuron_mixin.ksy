@@ -1,7 +1,7 @@
 meta:
   id: attach_modifier_by_neuron_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../EnumType/enum__neuron_mixin_remove_operator_type

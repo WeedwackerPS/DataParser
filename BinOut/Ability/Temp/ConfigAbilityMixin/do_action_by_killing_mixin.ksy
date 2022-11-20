@@ -1,7 +1,7 @@
 meta:
   id: do_action_by_killing_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../Common/array_of__disp__config_ability_action__length_u

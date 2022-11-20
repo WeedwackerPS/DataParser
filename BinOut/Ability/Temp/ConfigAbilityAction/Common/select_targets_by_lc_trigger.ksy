@@ -1,7 +1,7 @@
 meta:
   id: select_targets_by_lc_trigger
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../../../../../aux_types
     - ../../../../../EnumType/enum__target_type

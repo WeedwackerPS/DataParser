@@ -1,7 +1,7 @@
 meta:
   id: set_weapon_attach_point_real_name
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../config_ability_action
     - ../../../../aux_types

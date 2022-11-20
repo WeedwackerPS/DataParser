@@ -1,7 +1,7 @@
 meta:
   id: set_avatar_hit_buckets
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../config_ability_action
     - ../../../Common/config_avatar_hit_bucket_setting

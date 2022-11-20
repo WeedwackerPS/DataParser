@@ -1,7 +1,7 @@
 meta:
   id: by_global_pos_to_ground
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../relational_operation_predicate
     - ../../../../../aux_types

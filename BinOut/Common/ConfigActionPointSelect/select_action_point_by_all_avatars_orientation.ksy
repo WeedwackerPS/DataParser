@@ -1,7 +1,7 @@
 meta:
   id: select_action_point_by_all_avatars_orientation
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - config_action_point_select_type
     - ../../../ArrayType/array_of__aux_types__vlq_base128_le_u__length_u

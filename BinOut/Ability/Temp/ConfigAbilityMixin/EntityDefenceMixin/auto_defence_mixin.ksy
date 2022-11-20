@@ -1,7 +1,7 @@
 meta:
   id: auto_defence_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../entity_defence_mixin
 seq:

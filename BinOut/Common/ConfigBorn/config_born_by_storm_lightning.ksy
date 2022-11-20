@@ -1,7 +1,7 @@
 meta:
   id: config_born_by_storm_lightning
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - config_born_type
 seq:

@@ -1,7 +1,7 @@
 meta:
   id: do_action_on_global_value_change_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../aux_types

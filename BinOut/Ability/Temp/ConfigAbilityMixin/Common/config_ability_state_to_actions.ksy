@@ -1,7 +1,7 @@
 meta:
   id: config_ability_state_to_actions
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../../../../../EnumType/enum__ability_state
     - ../../Common/array_of__disp__config_ability_action__length_u

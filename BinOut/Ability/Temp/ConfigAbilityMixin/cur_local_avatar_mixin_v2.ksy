@@ -1,7 +1,7 @@
 meta:
   id: cur_local_avatar_mixin_v2
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../aux_types

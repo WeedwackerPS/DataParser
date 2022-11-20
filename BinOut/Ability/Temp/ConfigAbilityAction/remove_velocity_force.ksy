@@ -1,7 +1,7 @@
 meta:
   id: remove_velocity_force
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../config_ability_action
     - ../Common/array_of__enum__velocity_force_type__length_u

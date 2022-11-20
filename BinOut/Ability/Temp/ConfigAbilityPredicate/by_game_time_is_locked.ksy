@@ -1,7 +1,7 @@
 meta:
   id: by_game_time_is_locked
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
 seq:

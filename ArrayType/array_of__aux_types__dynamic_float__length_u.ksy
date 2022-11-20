@@ -1,7 +1,7 @@
 meta:
   id: array_of__aux_types__dynamic_float__length_u
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

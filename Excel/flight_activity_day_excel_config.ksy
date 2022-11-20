@@ -1,7 +1,7 @@
 meta:
   id: flight_activity_day_excel_config
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
     - ../ArrayType/array_of__f4__length_u

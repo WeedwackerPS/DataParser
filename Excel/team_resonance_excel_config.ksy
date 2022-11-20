@@ -1,7 +1,7 @@
 meta:
   id: team_resonance_excel_config
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
     - ../EnumType/enum__team_resonance_cond_type

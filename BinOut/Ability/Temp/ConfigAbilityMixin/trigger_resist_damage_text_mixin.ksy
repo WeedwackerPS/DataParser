@@ -1,7 +1,7 @@
 meta:
   id: trigger_resist_damage_text_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../ArrayType/array_of__enum__element_type__length_u

@@ -1,7 +1,7 @@
 meta:
   id: do_action_by_state_id_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../ArrayType/array_of__aux_types__string__length_u

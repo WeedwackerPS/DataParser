@@ -1,7 +1,7 @@
 meta:
   id: revive_avatar
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../heal_hp
 seq:

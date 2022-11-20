@@ -1,7 +1,7 @@
 meta:
   id: enum__server_message_show_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

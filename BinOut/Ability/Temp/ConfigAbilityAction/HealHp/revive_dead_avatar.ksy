@@ -1,7 +1,7 @@
 meta:
   id: revive_dead_avatar
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - revive_avatar
     - ../../../../../aux_types

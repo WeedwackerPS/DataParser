@@ -1,7 +1,7 @@
 meta:
   id: relational_operation_predicate
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../EnumType/enum__relational_operator

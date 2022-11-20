@@ -1,7 +1,7 @@
 meta:
   id: config_direction_by_back_to_hit_box_center
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - config_born_direction_type
 seq:

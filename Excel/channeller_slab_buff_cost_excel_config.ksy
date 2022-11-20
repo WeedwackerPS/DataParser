@@ -1,7 +1,7 @@
 meta:
   id: channeller_slab_buff_cost_excel_config
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
     - ../EnumType/enum__quality_type

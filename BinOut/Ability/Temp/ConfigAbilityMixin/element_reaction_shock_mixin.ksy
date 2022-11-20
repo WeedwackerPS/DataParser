@@ -1,7 +1,7 @@
 meta:
   id: element_reaction_shock_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../aux_types

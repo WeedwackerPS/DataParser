@@ -1,7 +1,7 @@
 meta:
   id: config_ability_modifier
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../../../aux_types
     - ../../../EnumType/enum__ability_state

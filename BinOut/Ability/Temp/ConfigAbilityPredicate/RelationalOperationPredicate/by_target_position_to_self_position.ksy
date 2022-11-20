@@ -1,7 +1,7 @@
 meta:
   id: by_target_position_to_self_position
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../relational_operation_predicate
     - ../../../../../EnumType/enum__target_pos_to_self_pos_type

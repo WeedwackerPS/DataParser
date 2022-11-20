@@ -1,7 +1,7 @@
 meta:
   id: by_attack_not_hit_scene
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../relational_operation_predicate
     - ../../../../Common/Disp/disp__config_base_attack_pattern

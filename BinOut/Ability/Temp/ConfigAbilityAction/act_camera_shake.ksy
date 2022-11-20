@@ -1,7 +1,7 @@
 meta:
   id: act_camera_shake
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../config_ability_action
     - ../../../Common/config_camera_shake

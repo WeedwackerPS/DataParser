@@ -1,7 +1,7 @@
 meta:
   id: by_cur_team_weapon_type_sort
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../aux_types

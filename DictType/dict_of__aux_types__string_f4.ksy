@@ -1,7 +1,7 @@
 meta:
   id: dict_of__aux_types__string_f4
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

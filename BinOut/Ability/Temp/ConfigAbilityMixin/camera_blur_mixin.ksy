@@ -1,7 +1,7 @@
 meta:
   id: camera_blur_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../Common/config_camera_radial_blur

@@ -1,7 +1,7 @@
 meta:
   id: by_energy_ratio
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../relational_operation_predicate
     - ../../../../../aux_types

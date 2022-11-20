@@ -1,7 +1,7 @@
 meta:
   id: attach_modifier_to_self_global_value_no_init_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../aux_types

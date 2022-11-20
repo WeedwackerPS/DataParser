@@ -1,7 +1,7 @@
 meta:
   id: talk_select_time_out_excel_config
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

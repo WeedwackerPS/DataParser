@@ -1,7 +1,7 @@
 meta:
   id: attach_modifier_to_hp_percent_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../ArrayType/array_of__aux_types__dynamic_float__length_u

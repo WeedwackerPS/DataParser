@@ -1,7 +1,7 @@
 meta:
   id: resist_climate_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../EnumType/enum__avatar_stage_type

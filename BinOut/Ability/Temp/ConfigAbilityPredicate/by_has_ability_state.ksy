@@ -1,7 +1,7 @@
 meta:
   id: by_has_ability_state
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../EnumType/enum__ability_state

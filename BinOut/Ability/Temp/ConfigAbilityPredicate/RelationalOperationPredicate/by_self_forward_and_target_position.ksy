@@ -1,7 +1,7 @@
 meta:
   id: by_self_forward_and_target_position
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../relational_operation_predicate
     - ../../../../../aux_types

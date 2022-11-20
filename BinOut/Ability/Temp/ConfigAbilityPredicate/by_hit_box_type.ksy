@@ -1,7 +1,7 @@
 meta:
   id: by_hit_box_type
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../EnumType/enum__hit_box_type

@@ -1,7 +1,7 @@
 meta:
   id: enum__trial_avatar_template_placeholder_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

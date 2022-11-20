@@ -1,7 +1,7 @@
 meta:
   id: dvalin_s01path_effs_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../aux_types

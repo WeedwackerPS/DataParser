@@ -1,7 +1,7 @@
 meta:
   id: vector
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
 seq:
   - id: bit_field
     type: u1

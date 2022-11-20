@@ -1,7 +1,7 @@
 meta:
   id: by_target_override_map_value
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../relational_operation_predicate
     - ../../../../../aux_types

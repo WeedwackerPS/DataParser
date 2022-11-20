@@ -1,7 +1,7 @@
 meta:
   id: array_of__prop_val_config__length_s
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../../aux_types
     - ../../EnumType/enum__fight_prop_type

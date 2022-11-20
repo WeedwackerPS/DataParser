@@ -1,7 +1,7 @@
 meta:
   id: disp__config_action_point_select_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../../../aux_types
     - ../ConfigActionPointSelect/config_action_point_select_type

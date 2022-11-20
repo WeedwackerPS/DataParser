@@ -1,7 +1,7 @@
 meta:
   id: by_scene_prop_state
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../EnumType/enum__entity_type

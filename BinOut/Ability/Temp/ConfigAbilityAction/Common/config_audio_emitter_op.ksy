@@ -1,7 +1,7 @@
 meta:
   id: config_audio_emitter_op
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - config_audio_operation
 seq:

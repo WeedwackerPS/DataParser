@@ -1,7 +1,7 @@
 meta:
   id: change_field_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../EnumType/enum__change_field_type

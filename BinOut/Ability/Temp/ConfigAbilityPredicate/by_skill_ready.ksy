@@ -1,7 +1,7 @@
 meta:
   id: by_skill_ready
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../aux_types

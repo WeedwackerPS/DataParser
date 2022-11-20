@@ -1,7 +1,7 @@
 meta:
   id: enum__quest_guide_style
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

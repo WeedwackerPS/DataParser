@@ -1,7 +1,7 @@
 meta:
   id: create_moving_platform
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - create_gadget
     - ../../../../../aux_types

@@ -1,7 +1,7 @@
 meta:
   id: send_evt_electric_core_move_enter_p1
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../config_ability_action
 seq:

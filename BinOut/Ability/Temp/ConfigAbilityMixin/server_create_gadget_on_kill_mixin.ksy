@@ -1,7 +1,7 @@
 meta:
   id: server_create_gadget_on_kill_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../ArrayType/array_of__aux_types__vlq_base128_le_u__length_u

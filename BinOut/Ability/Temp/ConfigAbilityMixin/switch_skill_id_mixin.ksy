@@ -1,7 +1,7 @@
 meta:
   id: switch_skill_id_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../EnumType/enum__switch_skill_priority

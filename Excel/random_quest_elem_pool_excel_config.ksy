@@ -1,7 +1,7 @@
 meta:
   id: random_quest_elem_pool_excel_config
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

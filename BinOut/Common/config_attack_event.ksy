@@ -1,7 +1,7 @@
 meta:
   id: config_attack_event
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - Disp/disp__config_base_attack_pattern
     - config_attack_info

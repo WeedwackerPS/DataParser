@@ -1,7 +1,7 @@
 meta:
   id: disp__config_born_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../ConfigBorn/config_born_type
     - ../ConfigBorn/config_born_by_target

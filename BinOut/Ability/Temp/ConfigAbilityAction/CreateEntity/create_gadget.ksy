@@ -1,7 +1,7 @@
 meta:
   id: create_gadget
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../create_entity
     - ../../../../../aux_types

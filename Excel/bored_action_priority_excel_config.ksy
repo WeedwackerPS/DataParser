@@ -1,7 +1,7 @@
 meta:
   id: bored_action_priority_excel_config
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
     - ../EnumType/enum__bored_action_type

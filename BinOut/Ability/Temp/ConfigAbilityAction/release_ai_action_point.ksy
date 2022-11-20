@@ -1,7 +1,7 @@
 meta:
   id: release_ai_action_point
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../config_ability_action
     - ../../../../EnumType/enum__action_point_type

@@ -1,7 +1,7 @@
 meta:
   id: hide_ui_bill_board
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../config_ability_action
 seq:

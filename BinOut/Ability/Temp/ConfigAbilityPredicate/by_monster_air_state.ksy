@@ -1,7 +1,7 @@
 meta:
   id: by_monster_air_state
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
 seq:

@@ -1,7 +1,7 @@
 meta:
   id: enum__config_ai_combat_skill_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

@@ -1,7 +1,7 @@
 meta:
   id: select_targets_by_shape
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - select_targets
     - ../../../../../aux_types

@@ -1,7 +1,7 @@
 meta:
   id: dragon_spine_enhance_excel_config
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

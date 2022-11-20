@@ -1,7 +1,7 @@
 meta:
   id: enum__config_graphic_setting_entry_sort_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

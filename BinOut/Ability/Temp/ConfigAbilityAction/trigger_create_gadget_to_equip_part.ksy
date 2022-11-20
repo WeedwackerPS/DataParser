@@ -1,7 +1,7 @@
 meta:
   id: trigger_create_gadget_to_equip_part
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../config_ability_action
     - ../../../../aux_types

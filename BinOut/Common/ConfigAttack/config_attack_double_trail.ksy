@@ -1,7 +1,7 @@
 meta:
   id: config_attack_double_trail
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../../../aux_types
     - config_attack_trail

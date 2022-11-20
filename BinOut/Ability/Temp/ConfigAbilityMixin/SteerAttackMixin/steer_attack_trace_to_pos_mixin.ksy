@@ -1,7 +1,7 @@
 meta:
   id: steer_attack_trace_to_pos_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../steer_attack_mixin
     - ../../../../../aux_types

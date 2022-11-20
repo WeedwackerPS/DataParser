@@ -1,7 +1,7 @@
 meta:
   id: trigger_rage_support_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../trigger_type_support_mixin
 seq:

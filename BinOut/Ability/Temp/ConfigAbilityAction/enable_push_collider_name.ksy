@@ -1,7 +1,7 @@
 meta:
   id: enable_push_collider_name
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../config_ability_action
     - ../../../../ArrayType/array_of__aux_types__string__length_u

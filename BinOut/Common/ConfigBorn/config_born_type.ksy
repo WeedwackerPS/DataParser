@@ -1,7 +1,7 @@
 meta:
   id: config_born_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../dynamic_float_vector
     - ../Disp/disp__born_random

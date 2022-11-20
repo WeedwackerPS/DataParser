@@ -1,7 +1,7 @@
 meta:
   id: by_cur_team_has_feature_tag
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../aux_types

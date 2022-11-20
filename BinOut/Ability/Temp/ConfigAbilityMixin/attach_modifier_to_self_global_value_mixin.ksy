@@ -1,7 +1,7 @@
 meta:
   id: attach_modifier_to_self_global_value_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../EnumType/enum__ability_targetting

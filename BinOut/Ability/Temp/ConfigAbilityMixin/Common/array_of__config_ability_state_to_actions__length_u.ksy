@@ -1,7 +1,7 @@
 meta:
   id: array_of__config_ability_state_to_actions__length_u
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../../../../../aux_types
     - config_ability_state_to_actions

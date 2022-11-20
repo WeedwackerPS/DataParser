@@ -1,7 +1,7 @@
 meta:
   id: by_target_is_ghost_to_enemy
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
 seq:

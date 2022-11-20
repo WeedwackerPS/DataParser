@@ -1,7 +1,7 @@
 meta:
   id: disp__config_ability_mixin
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../../../../aux_types
     - ../config_ability_mixin

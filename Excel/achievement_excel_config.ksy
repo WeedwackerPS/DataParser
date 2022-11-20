@@ -1,7 +1,7 @@
 meta:
   id: achievement_excel_config
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPL
   imports:
     - ../aux_types
     - ../EnumType/enum__show_type

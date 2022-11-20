@@ -1,7 +1,7 @@
 meta:
   id: disp__config_born_direction_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../ConfigBornDirection/config_born_direction_type
     - ../ConfigBornDirection/config_direction_by_default

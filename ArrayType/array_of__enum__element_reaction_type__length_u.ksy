@@ -1,7 +1,7 @@
 meta:
   id: array_of__enum__element_reaction_type__length_u
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../aux_types
     - ../EnumType/enum__element_reaction_type

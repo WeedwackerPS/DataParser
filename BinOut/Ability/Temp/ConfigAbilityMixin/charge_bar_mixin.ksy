@@ -1,7 +1,7 @@
 meta:
   id: charge_bar_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../EnumType/enum__element_type

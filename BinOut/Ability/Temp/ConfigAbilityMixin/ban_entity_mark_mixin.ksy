@@ -1,7 +1,7 @@
 meta:
   id: ban_entity_mark_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
 seq:

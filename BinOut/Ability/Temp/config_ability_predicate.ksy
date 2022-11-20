@@ -1,7 +1,7 @@
 meta:
   id: config_ability_predicate
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../../../EnumType/enum__ability_targetting
 seq:

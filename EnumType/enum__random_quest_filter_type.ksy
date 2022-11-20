@@ -1,7 +1,7 @@
 meta:
   id: enum__random_quest_filter_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

@@ -1,7 +1,7 @@
 meta:
   id: select_targets_by_equip_parts
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../../../../../aux_types
     - ../../../../../ArrayType/array_of__aux_types__string__length_u

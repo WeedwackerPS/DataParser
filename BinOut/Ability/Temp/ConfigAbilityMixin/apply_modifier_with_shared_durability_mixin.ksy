@@ -1,7 +1,7 @@
 meta:
   id: apply_modifier_with_shared_durability_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../aux_types

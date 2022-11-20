@@ -1,7 +1,7 @@
 meta:
   id: td_play_mixin_v2
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../EnumType/enum__control_part_target_type

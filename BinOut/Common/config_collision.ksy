@@ -1,7 +1,7 @@
 meta:
   id: config_collision
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../../EnumType/enum__collider_trigger_type
     - ../../EnumType/enum__target_type

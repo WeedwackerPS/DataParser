@@ -1,7 +1,7 @@
 meta:
   id: extend_lifetime_by_picked_gadget_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../aux_types

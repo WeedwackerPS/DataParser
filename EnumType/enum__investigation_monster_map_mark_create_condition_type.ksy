@@ -1,7 +1,7 @@
 meta:
   id: enum__investigation_monster_map_mark_create_condition_type
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../aux_types
 seq:

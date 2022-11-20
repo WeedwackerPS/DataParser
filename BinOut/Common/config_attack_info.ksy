@@ -1,7 +1,7 @@
 meta:
   id: config_attack_info
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../../aux_types
     - ../../EnumType/enum__can_be_modified_by

@@ -1,7 +1,7 @@
 meta:
   id: attach_to_animator_state_id_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../attach_to_state_id_mixin
 seq:

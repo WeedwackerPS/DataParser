@@ -1,7 +1,7 @@
 meta:
   id: by_avatar_weapon_type
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../ArrayType/array_of__aux_types__string__length_u

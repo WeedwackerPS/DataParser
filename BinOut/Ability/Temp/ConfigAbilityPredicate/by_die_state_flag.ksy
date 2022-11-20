@@ -1,7 +1,7 @@
 meta:
   id: by_die_state_flag
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_predicate
     - ../../../../EnumType/enum__die_state_flag

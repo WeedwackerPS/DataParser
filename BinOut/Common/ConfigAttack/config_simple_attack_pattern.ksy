@@ -1,7 +1,7 @@
 meta:
   id: config_simple_attack_pattern
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../../../aux_types
     - config_base_attack_pattern

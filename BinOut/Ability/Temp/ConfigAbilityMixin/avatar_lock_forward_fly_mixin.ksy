@@ -1,7 +1,7 @@
 meta:
   id: avatar_lock_forward_fly_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../Common/vector

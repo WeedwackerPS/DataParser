@@ -1,7 +1,7 @@
 meta:
   id: by_compare_with_target
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../relational_operation_predicate
     - ../../../../../EnumType/enum__compare_property

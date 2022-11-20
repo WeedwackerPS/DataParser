@@ -1,7 +1,7 @@
 meta:
   id: config_audio_operation
   endian: le
-  license: AGPL-3.0-or-later
+  license: GPLv2
   imports:
     - ../../../../Common/config_wwise_string
 seq:

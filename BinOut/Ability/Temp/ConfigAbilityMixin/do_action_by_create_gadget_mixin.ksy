@@ -1,7 +1,7 @@
 meta:
   id: do_action_by_create_gadget_mixin
   endian: le
-  license: GPL
+  license: GPLv2
   imports:
     - ../config_ability_mixin
     - ../../../../EnumType/enum__create_gadget_mixin_type
