@@ -1,0 +1,21 @@
+meta:
+  id: element_convert_to_charge_bar_value_mixin
+  endian: le
+  license: GPL
+  imports:
+    - ../config_ability_mixin
+    - ../../../../aux_types
+seq:
+  - id: base
+    type: config_ability_mixin
+  - id: bit_field
+    type: u1
+  - id: group
+    type: aux_types::string
+    if: has_field_group
+instances:
+  has_field_group: # Field №0
+    value: (bit_field & 0b1) != 0
+  # Base class fields
+  is_unique:
+    value: base.is_unique
