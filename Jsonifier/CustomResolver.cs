@@ -40,8 +40,6 @@ namespace Jsonifier
                 if (fieldInfo != null)
                 {
                     property.PropertyName = property.PropertyName.FirstCharToLowerCase();
-                    if(member.DeclaringType.GetProperty("TypeCode") != null)
-                    property.TypeNameHandling = TypeNameHandling.All;
                     property.ValueProvider = new ReflectionValueProvider(fieldInfo);
                     property.Writable = true;
                 }

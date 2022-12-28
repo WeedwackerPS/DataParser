@@ -1,16 +1,16 @@
-﻿using System.Reflection;
+﻿using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+using System.Reflection;
 
 namespace Jsonifier
 {
-    internal class CustomVlqBase128LeConverter : JsonConverter
+    internal class CustomDispConverter : JsonConverter
     {
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
-            PropertyInfo? prop = value.GetType().GetProperty("Value");
-            object? b128Int = prop.GetValue(value);
-            JToken token = (b128Int != null) ? JToken.FromObject(b128Int, serializer) : JValue.CreateNull();
+            PropertyInfo? prop = value.GetType().GetProperty("Data");
+            object? clazz = prop.GetValue(value);
+            JToken token = (clazz != null) ? JToken.FromObject(clazz, serializer) : JValue.CreateNull();
             token.WriteTo(writer);
         }
 
@@ -26,7 +26,7 @@ namespace Jsonifier
 
         public override bool CanConvert(Type objectType)
         {
-            return objectType.Name.StartsWith("VlqBase128Le");
+            return objectType.Name.StartsWith("Disp");
         }
     }
 }
